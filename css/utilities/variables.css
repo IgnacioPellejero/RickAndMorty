@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&display=swap");
+:root {
+  --header-height:56px;
+  --first-color:hsla(115, 100%, 43%, 0.678);
+  --text-color:hwb(167 5% 11%);
+  --body-font:'Questrial';
+  --biggest-font-size:38px;
+  --normal-dont-size:15.008px;
+  --smaller-font-size:12px; }
+  @media screen and (min-width: 1024px) {
+    :root {
+      --biggest-font-size:80px;
+      --normal-dont-size:16px;
+      --smaller-font-size:13.008px; } }
