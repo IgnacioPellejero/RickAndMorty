@@ -15,8 +15,10 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.home_data`, { delay: 200 })
-
 sr.reveal(`.home_img`, { origin: "top" }, { delay: 200 },);
+sr.reveal(`.home_dat`, { origin: "bottom" }, { delay: 200 },);
+
+sr.reveal(`.home_pers`, { origin: "bottom" }, { delay: 200 },);
 
 const ubicaciones = async () => {
     const respuesta = await fetch("https://rickandmortyapi.com/api/location");

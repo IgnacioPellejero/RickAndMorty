@@ -194,6 +194,10 @@ p {
     width: 80%; }
 
 @media (max-width: 425px) {
+  main {
+    height: 100%; }
+  .home {
+    height: 100%; }
   .titulo {
     font-size: 30px; }
   .home_dat {
@@ -202,7 +206,10 @@ p {
     margin: 2px; }
   .home_pers {
     margin: 0;
-    justify-items: center; }
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    gap: 2px;
+    margin: 2px; }
   .card {
     width: 120px;
     margin: 10px;
