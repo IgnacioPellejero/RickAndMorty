@@ -25,7 +25,15 @@
     box-shadow: 0 2px 4px rgba(40, 39, 37, 0.15);
     transition: .4s; }
   .active {
-    top: 0; } }
+    top: 0; }
+  .home_data {
+    width: 300px;
+    justify-items: center;
+    justify-self: center; }
+  .home_subtitle {
+    width: 300px; }
+    .home_subtitle img {
+      width: 300px; } }
 
 .nav_list {
   text-align: center;
@@ -60,4 +68,5 @@
 
 @media screen and (min-width: 1024px) {
   .home_container {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20%; } }
